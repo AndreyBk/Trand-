@@ -32,8 +32,8 @@ import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.clients.producer.ProducerRecord;
 import org.apache.kafka.clients.producer.RecordMetadata;
 import sun.rmi.runtime.Log;
+
 //import org.slf4j.Logger;
-//import org.apache.log4j.LogManager;
 //import org.apache.log4j.Logger;
 
 public class Main extends Application {
