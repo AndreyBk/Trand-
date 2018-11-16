@@ -164,7 +164,7 @@ public class Main extends Application {
     static void send_kafka(String _value) {
         Properties props = new Properties();
 
-        props.put("bootstrap.servers", "95.163.213.180:9092");
+        props.put("bootstrap.servers", "127.0.0.1:9092");
         props.put(ProducerConfig.ACKS_CONFIG, "all");
         props.put("value.serializer", "org.apache.kafka.common.serialization.StringSerializer");
         props.put("key.serializer", "org.apache.kafka.common.serialization.StringSerializer");
