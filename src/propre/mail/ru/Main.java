@@ -1,5 +1,7 @@
 package propre.mail.ru;
 //branche master
+// TODO: 16.11.2018 убить таймер. Посмотреть жизненный цикл активности
+
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import com.sun.javafx.logging.Logger;
